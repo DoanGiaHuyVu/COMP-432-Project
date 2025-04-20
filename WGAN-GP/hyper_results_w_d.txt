@@ -1,0 +1,91 @@
+/Users/adamvu/Python_GANs/WGAN-GP/.venv/bin/python /Users/adamvu/Python_GANs/main_project_files/WGAN-GP/hyperparameter_tuning_2.py
+[I 2025-04-16 20:15:35,358] A new study created in memory with name: wgan_gp_wasserstein_tuning
+Epoch 0: 100%|██████████| 6319/6319 [14:21<00:00,  7.34it/s]
+Epoch 1: 100%|██████████| 6319/6319 [14:17<00:00,  7.36it/s]
+Epoch 2: 100%|██████████| 6319/6319 [14:21<00:00,  7.33it/s]
+[I 2025-04-16 20:59:14,999] Trial 0 finished with value: 46.186988830566406 and parameters: {'lr_gen': 4.941088982544514e-06, 'lr_critic': 0.0009243779407537202, 'batch_size': 16, 'z_dim': 126, 'features_gen': 14, 'features_critic': 50, 'critic_iterations': 2, 'lambda_gp': 16.472172276669763, 'beta1': 0.6382452265957235, 'beta2': 0.9164116384204932}. Best is trial 0 with value: 46.186988830566406.
+Epoch 0: 100%|██████████| 6319/6319 [10:56<00:00,  9.62it/s]
+Epoch 1: 100%|██████████| 6319/6319 [10:53<00:00,  9.67it/s]
+Epoch 2: 100%|██████████| 6319/6319 [10:53<00:00,  9.67it/s]
+[I 2025-04-16 21:32:32,062] Trial 1 finished with value: 109.27876663208008 and parameters: {'lr_gen': 1.3673107144927552e-06, 'lr_critic': 8.189852559203773e-05, 'batch_size': 16, 'z_dim': 195, 'features_gen': 25, 'features_critic': 62, 'critic_iterations': 1, 'lambda_gp': 9.312584755513505, 'beta1': 0.7403104166368565, 'beta2': 0.9945545841400307}. Best is trial 0 with value: 46.186988830566406.
+Epoch 0: 100%|██████████| 3160/3160 [38:09<00:00,  1.38it/s]
+Epoch 1: 100%|██████████| 3160/3160 [38:07<00:00,  1.38it/s]
+Epoch 2: 100%|██████████| 3160/3160 [38:08<00:00,  1.38it/s]
+[I 2025-04-16 23:27:26,606] Trial 2 finished with value: 10.698951125144958 and parameters: {'lr_gen': 8.985247323301941e-05, 'lr_critic': 0.0003869655840757663, 'batch_size': 32, 'z_dim': 254, 'features_gen': 19, 'features_critic': 61, 'critic_iterations': 5, 'lambda_gp': 13.462121694335886, 'beta1': 0.28025323486676723, 'beta2': 0.9840130300677538}. Best is trial 2 with value: 10.698951125144958.
+Epoch 0: 100%|██████████| 3160/3160 [07:09<00:00,  7.36it/s]
+Epoch 1: 100%|██████████| 3160/3160 [07:07<00:00,  7.39it/s]
+Epoch 2: 100%|██████████| 3160/3160 [07:07<00:00,  7.39it/s]
+[I 2025-04-16 23:49:24,812] Trial 3 finished with value: -3.5020389556884766 and parameters: {'lr_gen': 0.00020532877265775344, 'lr_critic': 1.4215054091535892e-06, 'batch_size': 32, 'z_dim': 116, 'features_gen': 40, 'features_critic': 38, 'critic_iterations': 1, 'lambda_gp': 13.239418228820695, 'beta1': 0.4559541359984405, 'beta2': 0.9375052350701474}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 6319/6319 [10:39<00:00,  9.88it/s]
+Epoch 1: 100%|██████████| 6319/6319 [10:36<00:00,  9.93it/s]
+Epoch 2: 100%|██████████| 6319/6319 [10:35<00:00,  9.94it/s]
+[I 2025-04-17 00:21:50,337] Trial 4 finished with value: 1.5701408386230469 and parameters: {'lr_gen': 0.0003789180811724817, 'lr_critic': 0.00044676634572430555, 'batch_size': 16, 'z_dim': 92, 'features_gen': 60, 'features_critic': 17, 'critic_iterations': 1, 'lambda_gp': 14.824114278041229, 'beta1': 0.4200165793396992, 'beta2': 0.9510127491907409}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 3160/3160 [06:10<00:00,  8.52it/s]
+Epoch 1: 100%|██████████| 3160/3160 [06:09<00:00,  8.54it/s]
+[I 2025-04-17 00:34:37,479] Trial 5 pruned.
+Epoch 0: 100%|██████████| 6319/6319 [16:41<00:00,  6.31it/s]
+Epoch 1: 100%|██████████| 6319/6319 [16:42<00:00,  6.31it/s]
+Epoch 2: 100%|██████████| 6319/6319 [16:41<00:00,  6.31it/s]
+[I 2025-04-17 01:25:11,819] Trial 6 finished with value: 6.94178581237793 and parameters: {'lr_gen': 2.72871872485761e-05, 'lr_critic': 8.860689389397098e-06, 'batch_size': 16, 'z_dim': 155, 'features_gen': 10, 'features_critic': 57, 'critic_iterations': 2, 'lambda_gp': 18.312098874883525, 'beta1': 0.46143212806228395, 'beta2': 0.9226498949989248}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 1580/1580 [07:34<00:00,  3.48it/s]
+Epoch 1: 100%|██████████| 1580/1580 [07:32<00:00,  3.49it/s]
+Epoch 2: 100%|██████████| 1580/1580 [07:31<00:00,  3.50it/s]
+[I 2025-04-17 01:48:19,761] Trial 7 finished with value: 16.460268020629883 and parameters: {'lr_gen': 4.038508911854143e-06, 'lr_critic': 1.0384881524323651e-06, 'batch_size': 64, 'z_dim': 107, 'features_gen': 38, 'features_critic': 14, 'critic_iterations': 2, 'lambda_gp': 19.529379771170646, 'beta1': 0.5009675347726856, 'beta2': 0.9111304349739265}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 3160/3160 [15:48<00:00,  3.33it/s]
+Epoch 1: 100%|██████████| 3160/3160 [15:46<00:00,  3.34it/s]
+[I 2025-04-17 02:20:10,822] Trial 8 pruned.
+Epoch 0: 100%|██████████| 6319/6319 [25:54<00:00,  4.06it/s]
+Epoch 1: 100%|██████████| 6319/6319 [25:58<00:00,  4.05it/s]
+[I 2025-04-17 03:12:31,035] Trial 9 pruned.
+Epoch 0: 100%|██████████| 1580/1580 [17:51<00:00,  1.47it/s]
+Epoch 1: 100%|██████████| 1580/1580 [17:47<00:00,  1.48it/s]
+Epoch 2: 100%|██████████| 1580/1580 [17:47<00:00,  1.48it/s]
+[I 2025-04-17 04:06:26,270] Trial 10 finished with value: -2.330821990966797 and parameters: {'lr_gen': 0.0009930042948932147, 'lr_critic': 1.0610548678030027e-06, 'batch_size': 64, 'z_dim': 84, 'features_gen': 45, 'features_critic': 31, 'critic_iterations': 3, 'lambda_gp': 6.411020974393609, 'beta1': 0.8966742623045891, 'beta2': 0.9498576707505634}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 1580/1580 [23:34<00:00,  1.12it/s]
+Epoch 1: 100%|██████████| 1580/1580 [23:32<00:00,  1.12it/s]
+Epoch 2: 100%|██████████| 1580/1580 [23:32<00:00,  1.12it/s]
+[I 2025-04-17 05:17:40,438] Trial 11 finished with value: -1.9500732421875 and parameters: {'lr_gen': 0.0007685370051862581, 'lr_critic': 1.1893850883473372e-06, 'batch_size': 64, 'z_dim': 70, 'features_gen': 47, 'features_critic': 29, 'critic_iterations': 4, 'lambda_gp': 6.8112343416595555, 'beta1': 0.8634233751725986, 'beta2': 0.9496022707127375}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 1580/1580 [19:06<00:00,  1.38it/s]
+Epoch 1: 100%|██████████| 1580/1580 [19:03<00:00,  1.38it/s]
+Epoch 2: 100%|██████████| 1580/1580 [19:04<00:00,  1.38it/s]
+[I 2025-04-17 06:15:29,996] Trial 12 finished with value: -0.3493213653564453 and parameters: {'lr_gen': 0.00018766162874736154, 'lr_critic': 3.6416490871546698e-06, 'batch_size': 64, 'z_dim': 68, 'features_gen': 48, 'features_critic': 41, 'critic_iterations': 3, 'lambda_gp': 5.185971901415688, 'beta1': 0.06478965401123105, 'beta2': 0.9379296312514493}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 1580/1580 [16:16<00:00,  1.62it/s]
+Epoch 1: 100%|██████████| 1580/1580 [16:09<00:00,  1.63it/s]
+Epoch 2: 100%|██████████| 1580/1580 [16:12<00:00,  1.63it/s]
+[I 2025-04-17 07:04:37,340] Trial 13 finished with value: -1.682870864868164 and parameters: {'lr_gen': 0.0009123131889996114, 'lr_critic': 3.3241854551907986e-06, 'batch_size': 64, 'z_dim': 103, 'features_gen': 45, 'features_critic': 23, 'critic_iterations': 3, 'lambda_gp': 11.296028295777802, 'beta1': 0.8943559259229052, 'beta2': 0.9659549503600102}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 3160/3160 [35:01<00:00,  1.50it/s]
+Epoch 1: 100%|██████████| 3160/3160 [34:58<00:00,  1.51it/s]
+Epoch 2: 100%|██████████| 3160/3160 [34:58<00:00,  1.51it/s]
+[I 2025-04-17 08:50:06,221] Trial 14 finished with value: -0.6203041076660156 and parameters: {'lr_gen': 0.00010443121816519373, 'lr_critic': 3.283812241915989e-06, 'batch_size': 32, 'z_dim': 181, 'features_gen': 37, 'features_critic': 45, 'critic_iterations': 5, 'lambda_gp': 9.616198130049359, 'beta1': 0.18106710953520988, 'beta2': 0.9673670650234553}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 1580/1580 [13:15<00:00,  1.99it/s]
+Epoch 1: 100%|██████████| 1580/1580 [13:13<00:00,  1.99it/s]
+[I 2025-04-17 09:16:56,580] Trial 15 pruned.
+Epoch 0: 100%|██████████| 3160/3160 [28:29<00:00,  1.85it/s]
+Epoch 1: 100%|██████████| 3160/3160 [28:27<00:00,  1.85it/s]
+Epoch 2: 100%|██████████| 3160/3160 [28:30<00:00,  1.85it/s]
+[I 2025-04-17 10:42:58,805] Trial 16 finished with value: -1.5069856643676758 and parameters: {'lr_gen': 4.766238095607076e-05, 'lr_critic': 2.072646074891873e-06, 'batch_size': 32, 'z_dim': 79, 'features_gen': 55, 'features_critic': 35, 'critic_iterations': 3, 'lambda_gp': 7.236595188432662, 'beta1': 0.7544741743863805, 'beta2': 0.965433891926142}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 1580/1580 [06:19<00:00,  4.16it/s]
+Epoch 1: 100%|██████████| 1580/1580 [06:17<00:00,  4.18it/s]
+Epoch 2: 100%|██████████| 1580/1580 [06:18<00:00,  4.18it/s]
+[I 2025-04-17 11:02:33,659] Trial 17 finished with value: -1.917745590209961 and parameters: {'lr_gen': 0.00047560862448035103, 'lr_critic': 7.54719934259176e-06, 'batch_size': 64, 'z_dim': 171, 'features_gen': 42, 'features_critic': 19, 'critic_iterations': 1, 'lambda_gp': 15.252800169427815, 'beta1': 0.5673996636112467, 'beta2': 0.9352195722536297}. Best is trial 3 with value: -3.5020389556884766.
+Epoch 0: 100%|██████████| 3160/3160 [14:38<00:00,  3.60it/s]
+Epoch 1: 100%|██████████| 3160/3160 [14:35<00:00,  3.61it/s]
+[I 2025-04-17 11:32:09,241] Trial 18 pruned.
+Epoch 0: 100%|██████████| 1580/1580 [11:45<00:00,  2.24it/s]
+Epoch 1: 100%|██████████| 1580/1580 [11:43<00:00,  2.24it/s]
+[I 2025-04-17 11:55:55,363] Trial 19 pruned.
+Lowest W-distance: -3.5020
+Hyperparameters:
+  lr_gen: 0.00020532877265775344
+  lr_critic: 1.4215054091535892e-06
+  batch_size: 32
+  z_dim: 116
+  features_gen: 40
+  features_critic: 38
+  critic_iterations: 1
+  lambda_gp: 13.239418228820695
+  beta1: 0.4559541359984405
+  beta2: 0.9375052350701474
+Best hyperparameters saved to optuna_study/best_hyperparameters.txt
+
+Process finished with exit code 0
